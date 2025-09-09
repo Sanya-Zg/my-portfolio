@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import myPhoto from '../../assets/Me.jpeg-removebg-preview.PNG';
 import { RevealOnScroll } from '../RevealOnScroll';
 
@@ -26,12 +27,12 @@ const Home = () => {
                 Junior Full-Stack Developer
               </p>
               <div className="flex justify-center space-x-4">
-                <a
-                  href="projects"
+                <Link
+                  to="/projects"
                   className="bg-gradient-to-b from-blue-900 to-blue-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                 >
                   View Projects
-                </a>
+                </Link>
 
                 <a
                   href="contact"
