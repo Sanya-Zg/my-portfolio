@@ -24,7 +24,13 @@ console.log('sanya', code)
       <div className="min-w-[360px] bg-white/30 p-6 rounded-xl border-2 border-white/10 hover:shadow-[0_10px_30px_rgba(0,0,0,0.8)] transition-all duration-300 transform-gpu">
         <h3 className="text-xl font-bold mb-3 text-gray-700">{title}</h3>
 
-        <p className={`${color} mb-2 ${color === 'text-red-500'? 'font-bold' : ''}`}>{description}</p>
+        <p
+          className={`${color} mb-2 ${
+            color === 'text-red-500' ? 'font-bold' : ''
+          }`}
+        >
+          {description}
+        </p>
         <button
           className={`${
             location.pathname === '/projects' ? 'cursor-pointer' : ''
@@ -58,12 +64,16 @@ console.log('sanya', code)
           <div className="flex justify-center gap-4 px-2">
             <a
               href={site}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-green-600 border-2 border-amber-400 rounded-md py-1 px-4 hover:bg-white/70"
             >
               Live
             </a>
             <a
               href={code}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-amber-900 border-2 border-amber-400 rounded-md py-1 px-4 hover:bg-white/70"
             >
               GitHub
