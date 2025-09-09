@@ -14,9 +14,8 @@ const Home = () => {
               <img
                 src={myPhoto}
                 alt="My photo"
-                className="w-auto h-70 object-cover block rounded-b-md bg-gradient-to-b from-amber-100 via-amber-50 to-amber-100"
+                className="w-60 h-60 object-cover block rounded-full bg-gradient-to-b from-amber-100  to-cyan-100"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-amber-100 via-transparent to-transparent"></div>
             </div>
 
             <div>
@@ -28,14 +27,14 @@ const Home = () => {
               </p>
               <div className="flex justify-center space-x-4">
                 <a
-                  href="/projects"
+                  href="projects"
                   className="bg-gradient-to-b from-blue-900 to-blue-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                 >
                   View Projects
                 </a>
 
                 <a
-                  href="/contact"
+                  href="contact"
                   className="border border-blue-900/50 text-blue-900 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-900/10"
                 >
                   Contact Me

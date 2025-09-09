@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-const Layout = ({ menuOpen, setMenuOpen, children }) => {
+const Layout = ({ menuOpen, setMenuOpen }) => {
   const location = useLocation();
 
   useEffect(() => {
