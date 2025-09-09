@@ -15,7 +15,7 @@ const Project = ({
 }) => {
   const [showModal, setShowModal] = useState(false);
   const location = useLocation();
-
+console.log('sanya', code)
 
   const isProjectsPage = location.pathname === '/projects';
 
@@ -24,7 +24,7 @@ const Project = ({
       <div className="min-w-[360px] bg-white/30 p-6 rounded-xl border-2 border-white/10 hover:shadow-[0_10px_30px_rgba(0,0,0,0.8)] transition-all duration-300 transform-gpu">
         <h3 className="text-xl font-bold mb-3 text-gray-700">{title}</h3>
 
-        <p className={`${color} mb-2`}>{description}</p>
+        <p className={`${color} mb-2 ${color === 'text-red-500'? 'font-bold' : ''}`}>{description}</p>
         <button
           className={`${
             location.pathname === '/projects' ? 'cursor-pointer' : ''

@@ -10,6 +10,7 @@ import Project from '../components/Project';
 const Projects = () => {
 
   const imgBlog = [blog_1, blog_2, blog_3, blog_4, blog_5];
+  const eCommerce = [project2]
 
   return (
     <section className="min-h-screen flex items-center justify-center py-20">
@@ -30,9 +31,9 @@ const Projects = () => {
           />
           <Project
             title="E-commerce Site"
-            description="IN PROGRESS"
+            description="IN PROGRESS..."
             image={project2}
-            images={imgBlog}
+            images={eCommerce}
             technologies={['Next.js', 'MongoDB']}
             color="text-red-500"
           />

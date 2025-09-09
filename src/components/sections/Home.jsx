@@ -34,12 +34,12 @@ const Home = () => {
                   View Projects
                 </Link>
 
-                <a
-                  href="contact"
+                <Link
+                  to="/contact"
                   className="border border-blue-900/50 text-blue-900 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-900/10"
                 >
                   Contact Me
-                </a>
+                </Link>
               </div>
             </div>
           </div>
