@@ -26,7 +26,7 @@ const Projects = () => {
             image={blog_1}
             images={imgBlog}
             technologies={['React', 'NodeJS', 'Express', 'MongoDB']}
-            site={'https://mern-blog-hlak.onrender.com'}
+            site={'https://mern-stack-blog-m39a.onrender.com/'}
             code={'https://github.com/Sanya-Zg/MERN_STACK-blog'}
           />
           <Project
